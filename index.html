@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Gerador de senha</title>
 </head>
 <body>
     <div class="container">
         <h1 class="title">Gerador de senha</h1>
-        <h3 id="passwordDisplay" class="password-display"></h3>
+        <h3 class="password-display"  id="passwordDisplay"></h3>
         <form id="passwordGeneratorForm" class="form">
             <label for="characterAmountNumber">Numero de caracteres</label>
             <div class="characterAmountContainer">
@@ -24,7 +24,7 @@
             <input type="checkbox" id="IncludeNumbers">
             <label for="includeSymbols">Incluir símbolos</label>
             <input type="checkbox" id="IncludeSymbols">
-            <button class="btn" type="submit">Gerar senha</button>
+            <button type="submit" class="btn">Gerar senha</button>
         </form>
     </div>
 </body>
