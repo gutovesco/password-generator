@@ -11,18 +11,18 @@
 <body>
   <div class="container">
     <h1 class="title">Gerador de senha</h1>
-    <h3 class="password-display" id="passwordDisplay">Senha</h3>
+    <h3 class="password-display" id="passwordDisplay">Sua senha aparecerá aqui</h3>
     <form id="passwordGeneratorForm" class="form">
-      <label for="characterAmountNumber">Numero de caractéres</label>
+      <label for="characterAmountNumber">Numero de caracteres:</label>
       <div class="character-amount-container">
         <input type="range" min="1" max="20" value="10" id="characterAmountRange">
         <input class="number-input" type="number" min="1" max="20" value="10" id="characterAmountNumber">
       </div>
-      <label for="includeUppercase">Incluir letras maiúsculas</label>
+      <label for="includeUppercase">Incluir letras maiúsculas:</label>
       <input type="checkbox" id="includeUppercase">
-      <label for="includeNumbers">Incluir numeros</label>
+      <label for="includeNumbers">Incluir numeros:</label>
       <input type="checkbox" id="includeNumbers">
-      <label for="includeSymbols">Incluir symbolos</label>
+      <label for="includeSymbols">Incluir símbolos:</label>
       <input type="checkbox" id="includeSymbols">
       <button type="submit" class="btn">Gerar Senha</button>
     </form>
