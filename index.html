@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Gerador de senha</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Gerador de senha</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Gerador de senha</h1>
-        <h3 class="password-display"  id="passwordDisplay"></h3>
-        <form id="passwordGeneratorForm" class="form">
-            <label for="characterAmountNumber">Numero de caracteres</label>
-            <div class="characterAmountContainer">
-                <input type="range" min="1" max="20" value="10" id="characterAmountRange">
-                <input class="number-input" type="number" min="1" max="20" value="10" id="characterAmountNumber">
-            </div>
-            <label for="includeUppercase">Incluir letras maiúsculas</label>
-            <input type="checkbox" id="IncludeUppercase">
-            <label for="includeNumbers">Incluir numeros</label>
-            <input type="checkbox" id="IncludeNumbers">
-            <label for="includeSymbols">Incluir símbolos</label>
-            <input type="checkbox" id="IncludeSymbols">
-            <button type="submit" class="btn">Gerar senha</button>
-        </form>
-    </div>
+  <div class="container">
+    <h1 class="title">Gerador de senha</h1>
+    <h3 class="password-display" id="passwordDisplay">Senha</h3>
+    <form id="passwordGeneratorForm" class="form">
+      <label for="characterAmountNumber">Numero de caractéres</label>
+      <div class="character-amount-container">
+        <input type="range" min="1" max="20" value="10" id="characterAmountRange">
+        <input class="number-input" type="number" min="1" max="20" value="10" id="characterAmountNumber">
+      </div>
+      <label for="includeUppercase">Incluir letras maiúsculas</label>
+      <input type="checkbox" id="includeUppercase">
+      <label for="includeNumbers">Incluir numeros</label>
+      <input type="checkbox" id="includeNumbers">
+      <label for="includeSymbols">Incluir symbolos</label>
+      <input type="checkbox" id="includeSymbols">
+      <button type="submit" class="btn">Gerar Senha</button>
+    </form>
+  </div>
 </body>
 </html>
